@@ -1,0 +1,32 @@
+body {
+	background-color: rgb(43, 149, 188);
+}
+.title {
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 300;
+}
+.input {
+	text-align: center;
+}
+.textbox {
+	background-color: rgb(38, 127, 160);
+	border: none;
+	width: 200px;
+	height: 19px;
+	color: rgb(255,255,255);
+}
+.button {
+	background-color: rgb(38, 127, 160);
+	text-align: center;
+	width: 30px;
+	height: 21px;
+	border: none;
+	color: rgb(255,255,255);
+}
+#filme {	
+	margin-top: 50px;
+	margin-left: 42%;
+	color: rgb(255,255,255);
+	visibility: hidden;
+}
