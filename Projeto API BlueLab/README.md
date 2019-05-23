@@ -1,1 +1,2 @@
-Eu utilizei a biblioteca JQuerry para buscar informações na API omdbapi.
+Eu utilizei a biblioteca JQuerry para buscar informaÃ§Ãµes na API omdbapi.
+Baixe a pasta inteira 'Projeto API BlueLab' e inicialize o arquivo 'index.html'
