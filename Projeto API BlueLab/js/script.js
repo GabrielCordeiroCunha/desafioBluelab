@@ -10,6 +10,7 @@
 	var tempo = document.getElementById('tempo');
 	var genero = document.getElementById('genero');
 	var site = document.getElementById('site');
+	var banner = document.getElementById('banner');
 
 	/* Chama a função busca no evento click no botão */
 	button.addEventListener("click", display);
@@ -33,7 +34,8 @@
 		titulo.textContent = (dados.Title != "N/A" && dados.Title != null)? dados.Title: "Infelizmente não temos essa informação :(";
 		ano.textContent = (dados.Year != "N/A" && dados.Year != null)? dados.Year: "Infelizmente não temos essa informação :(";
 		tempo.textContent = (dados.Runtime != "N/A" && dados.Runtime != null)? dados.Runtime: "Infelizmente não temos essa informação :(";
-		genero.textContent = (dados.Genre != "N/A" && dados.Genre != null)? dados.Genre: "Infelizmente não temos essa informação :(";		
+		genero.textContent = (dados.Genre != "N/A" && dados.Genre != null)? dados.Genre: "Infelizmente não temos essa informação :(";
+		banner.src = (dados.Genre != "N/A" && dados.Genre != null)? dados.Poster: "source/img_not_found.png";
 		if (dados.Website != "N/A" && dados.Website != null) {
 			site.textContent = dados.Website;
 			site.href = dados.Website;
